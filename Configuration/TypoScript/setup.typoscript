@@ -7,12 +7,4 @@ plugin {
       privateKey = {$plugin.tx_hcaptcha.settings.privateKey}
     }
   }
-
-  tx_form {
-    settings {
-      yamlConfigurations {
-        158329071148 = EXT:hcaptcha/Configuration/Form/Yaml/BaseSetup.yaml
-      }
-    }
-  }
 }
